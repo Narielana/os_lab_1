@@ -54,7 +54,9 @@ brk(0x557493c3f000)                     = 0x557493c3f000
 clone(child_stack=0x7f30cbdc7fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[8136], tls=0x7f30cbdc8700, child_tidptr=0x7f30cbdc89d0) = 8136
 futex(0x7f30cbdc89d0, FUTEX_WAIT, 8136, NULL) = 0
 fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
-write(1, "0.070000 \n", 100.070000 )             = 10
-write(1, "0 \n", 30 )                     = 3
+write(1, "0.070000 \n", 10
+0.070000 )             = 10
+write(1, "0 \n", 3
+0 )                     = 3
 exit_group(0)                           = ?
 +++ exited with 0 +++
